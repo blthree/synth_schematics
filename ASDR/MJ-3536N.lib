@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MJ-3536N
+#
+DEF MJ-3536N J 0 40 Y N 1 L N
+F0 "J" -300 230 50 H V L BNN
+F1 "MJ-3536N" -300 -300 50 H V L BNN
+F2 "CUI_MJ-3536N" 0 0 50 H I L BNN
+F3 "MJ-3536N" 0 0 50 H I L BNN
+F4 "2 Conductors 3 Contacts 12V 3.5 mm Right Angle Through Hole Audio Jack Connector" 0 0 50 H I L BNN
+F5 "https://www.cui.com/product/interconnect/audio-connectors/3.5-mm-jacks/mj-3536n?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "CUI Inc." 0 0 50 H I L BNN
+F8 "CP-3536N-ND" 0 0 50 H I L BNN
+F9 "https://www.digikey.com/product-detail/en/cui-inc/MJ-3536N/CP-3536N-ND/281264?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -140 20 -140 -100 N
+P 2 0 0 10 -140 -100 -60 -100 N
+P 2 0 0 10 -60 -100 -60 20 N
+P 2 0 0 10 -60 20 -100 20 N
+P 2 0 0 10 -100 20 -140 20 N
+P 2 0 0 10 -100 20 -100 100 N
+P 2 0 0 10 -100 100 300 100 N
+P 2 0 0 10 0 -100 50 0 N
+P 2 0 0 10 50 0 100 -100 N
+P 2 0 0 10 100 -100 200 -100 N
+P 2 0 0 10 200 -100 300 -100 N
+P 2 0 0 10 180 -30 200 -100 N
+P 2 0 0 10 200 -100 220 -30 N
+P 2 0 0 10 220 -30 200 -30 N
+P 3 0 0 10 220 -30 180 -30 200 -100 F
+P 2 0 0 10 200 -30 180 -30 N
+P 2 0 0 10 300 200 300 100 N
+P 2 0 0 10 300 100 300 0 N
+P 2 0 0 10 300 0 300 -100 N
+P 2 0 0 10 300 -100 300 -200 N
+P 2 0 0 10 300 -200 -300 -200 N
+P 2 0 0 10 -300 -200 -300 200 N
+P 2 0 0 10 -300 200 300 200 N
+P 2 0 0 10 300 0 200 0 N
+P 2 0 0 10 200 0 200 -30 N
+X 1 1 400 100 100 L 40 40 0 0 P 
+X 2 2 400 -100 100 L 40 40 0 0 P 
+X 3 3 400 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MCP1804)(type Legacy)(uri ${KIPRJMOD}/MCP1804.lib)(options "")(descr ""))
+  (lib (name cem3340-module-rescue)(type Legacy)(uri ${KIPRJMOD}/cem3340-module-rescue.lib)(options "")(descr ""))
+  (lib (name cem3340-module_REDDIT-rescue)(type Legacy)(uri ${KIPRJMOD}/cem3340-module_REDDIT-rescue.lib)(options "")(descr ""))
+)

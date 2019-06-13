@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Adafruit_MCP4725-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_MCP4725-eagle-import.lib)(options "")(descr ""))
+  (lib (name PL_opto)(type Legacy)(uri ${KIPRJMOD}/PL_opto.lib)(options "")(descr ""))
+)

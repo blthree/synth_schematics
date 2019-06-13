@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name delay-rescue)(type Legacy)(uri ${KIPRJMOD}/delay-rescue.lib)(options "")(descr ""))
+  (lib (name monotron)(type Legacy)(uri ${KIPRJMOD}/monotron.lib)(options "")(descr ""))
+)

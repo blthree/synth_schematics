@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name moog_vca-rescue)(type Legacy)(uri ${KIPRJMOD}/moog_vca-rescue.lib)(options "")(descr ""))
+)

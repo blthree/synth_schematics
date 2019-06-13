@@ -1,0 +1,86 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4017 U?
+U 1 1 5CD92EB1
+P 3900 2200
+F 0 "U?" H 3900 3181 50  0000 C CNN
+F 1 "4017" H 3900 3090 50  0000 C CNN
+F 2 "" H 3900 2200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 3900 2200 50  0001 C CNN
+	1    3900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2000 3400 4400
+Wire Wire Line
+	3400 4400 4750 4400
+Wire Wire Line
+	4750 4400 4750 2500
+Wire Wire Line
+	4750 2500 4400 2500
+$Comp
+L power:-12V #PWR?
+U 1 1 5CD93D58
+P 1200 4050
+F 0 "#PWR?" H 1200 4150 50  0001 C CNN
+F 1 "-12V" H 1215 4223 50  0000 C CNN
+F 2 "" H 1200 4050 50  0001 C CNN
+F 3 "" H 1200 4050 50  0001 C CNN
+	1    1200 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CD94290
+P 3900 1000
+F 0 "#PWR?" H 3900 850 50  0001 C CNN
+F 1 "+12V" H 3915 1173 50  0000 C CNN
+F 2 "" H 3900 1000 50  0001 C CNN
+F 3 "" H 3900 1000 50  0001 C CNN
+	1    3900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD94393
+P 2950 2000
+F 0 "#PWR?" H 2950 1750 50  0001 C CNN
+F 1 "GND" H 2955 1827 50  0000 C CNN
+F 2 "" H 2950 2000 50  0001 C CNN
+F 3 "" H 2950 2000 50  0001 C CNN
+	1    2950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1000 3900 1400
+Wire Wire Line
+	2950 2000 2950 1800
+Wire Wire Line
+	2950 1800 3400 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5CD9562F
+P 3900 3100
+F 0 "#PWR?" H 3900 2850 50  0001 C CNN
+F 1 "GND" H 3905 2927 50  0000 C CNN
+F 2 "" H 3900 3100 50  0001 C CNN
+F 3 "" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 2600
+$EndSCHEMATC

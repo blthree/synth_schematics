@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1804
+D 500 mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf
+$ENDCMP
+#
+#End Doc Library

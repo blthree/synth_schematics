@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name sparkfun)(type KiCad)(uri C:/Users/blthr/Documents/synth_schematics/SparkFun-KiCad-Libraries/Footprints/Boards.pretty)(options "")(descr ""))
+)

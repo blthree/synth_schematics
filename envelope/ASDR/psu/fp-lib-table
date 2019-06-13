@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name psu)(type KiCad)(uri C:/Users/blthr/Documents/ASDR/psu)(options "")(descr ""))
+)

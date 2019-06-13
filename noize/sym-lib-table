@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name noize-rescue)(type Legacy)(uri ${KIPRJMOD}/noize-rescue.lib)(options "")(descr ""))
+)
